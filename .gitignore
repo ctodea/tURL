@@ -50,6 +50,7 @@ wheels/
 *.spec
 *.exe
 *.dist
+*.swp
 
 # Installer logs
 pip-log.txt
