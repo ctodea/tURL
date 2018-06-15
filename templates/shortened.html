@@ -1,0 +1,8 @@
+{% extends 'default.html' %}
+
+{% block body %}
+<p>{{ result['originalUrl'] }} shortened to <a href="/{{result['shortUrl']}}">http://turl.com/{{result['shortUrl']}}</a> </p>
+
+<p>URL hits: {{ result['hits'] }}</p>
+<a href="/"> BACK TO HOMEPAGE</a>
+{% endblock body %}

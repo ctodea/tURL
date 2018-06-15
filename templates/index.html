@@ -1,0 +1,15 @@
+{% extends 'default.html' %}
+
+{% block body %}
+
+    
+<p>Enter a URL to shorten</p>
+<form id="shortener" method="POST" action="/">
+    <div class="input-append">
+        <input class="span4" id="url" name="url" type="text">
+        <button class="btn" type="submit">Shorten</button>
+    </div>
+</form>
+
+
+{% endblock body %}
