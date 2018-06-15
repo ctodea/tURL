@@ -18,7 +18,7 @@ Collisions are not detected/managed ~~, yet~~.
 
 ## Running it
 
-#### 1. Setup Redis:
+### 1. Setup Redis:
 Fastest way is to use [Docker]:
 ```
 $ docker run -itd -p 6379:6379 redis:alpine
